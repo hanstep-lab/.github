@@ -28,7 +28,7 @@
 
 ```mermaid
 flowchart LR
-    App[React Native 앱] --> BE[Spring Boot API]
+    App[React Native App] --> BE[Spring Boot API]
     BE --> MySQL[(MySQL 8.4)]
     BE --> MinIO[(MinIO)]
     BE --> MQ[RabbitMQ]
