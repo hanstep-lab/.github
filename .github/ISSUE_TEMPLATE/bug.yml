@@ -1,0 +1,37 @@
+name: Bug
+description: 버그 수정
+title: "[fix] "
+body:
+  - type: input
+    id: refs
+    attributes:
+      label: 관련 API·화면
+      placeholder: "예: DOC-02, ON-003"
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제인가요
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      value: |
+        1. 
+        2. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과와 실제 결과
+  - type: textarea
+    id: logs
+    attributes:
+      label: 로그·스크린샷
+  - type: input
+    id: due
+    attributes:
+      label: 마감일
+      placeholder: "예: 2026-11-05"
